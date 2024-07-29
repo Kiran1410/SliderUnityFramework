@@ -77,5 +77,7 @@ Pod::Spec.new do |spec|
   
   spec.vendored_frameworks = "SliderUnityFramework.framework"
 
+  spec.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
+
 
 end
