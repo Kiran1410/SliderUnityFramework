@@ -8,10 +8,11 @@ Pod::Spec.new do |s|
   s.author       = { 'Author' => 'author@example.com' }
   s.source       = { :git => 'https://github.com/Kiran1410/SliderUnityFramework.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
   # Point to the correct path where the framework is located
-  s.vendored_frameworks = 'path/to/SliderUnityFramework.framework'
+
+  s.vendored_frameworks = "SliderUnityFramework.framework"
 
   # If your framework has dependencies
   # s.dependency 'DependencyName', '~> 1.0'
