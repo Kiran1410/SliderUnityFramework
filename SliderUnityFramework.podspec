@@ -8,16 +8,18 @@ Pod::Spec.new do |s|
   s.author       = { 'Author' => 'author@example.com' }
   s.source       = { :git => 'https://github.com/Kiran1410/SliderUnityFramework.git', :tag => s.version.to_s }
 
+  s.platform     = :ios, "14.0"
   s.ios.deployment_target = '12.0'
 
   # Point to the correct path where the framework is located
 
+
+
+ s.public_header_files = "SliderUnityFramework.framework/Headers/*.h"
+  s.source_files = "SliderUnityFramework.framework/Headers/*.h"
+
   s.vendored_frameworks = "SliderUnityFramework.framework"
 
-
-
-  s.source_files  = "SliderGames", "SliderGames/**/*.{h,m,swift,plist}"
-  s.resources = "SliderGames/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 
   # If your framework has dependencies
