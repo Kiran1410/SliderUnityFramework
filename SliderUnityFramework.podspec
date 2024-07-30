@@ -15,10 +15,10 @@ Pod::Spec.new do |s|
 
 
 
- s.public_header_files = "SliderUnityFramework.framework/Headers/*.h"
-  s.source_files = "SliderUnityFramework.framework/Headers/*.h"
+ s.public_header_files = "UnityFramework.framework/Headers/*.h"
+ s.source_files = "UnityFramework.framework/Headers/*.h"
 
-  s.vendored_frameworks = "SliderUnityFramework.framework"
+ s.vendored_frameworks = "UnityFramework.framework"
 
 
 
