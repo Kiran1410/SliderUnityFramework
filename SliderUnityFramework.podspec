@@ -14,6 +14,12 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = "SliderUnityFramework.framework"
 
+
+
+  s.source_files  = "SliderGames", "SliderGames/**/*.{h,m,swift,plist}"
+  s.resources = "SliderGames/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+
+
   # If your framework has dependencies
   # s.dependency 'DependencyName', '~> 1.0'
 
